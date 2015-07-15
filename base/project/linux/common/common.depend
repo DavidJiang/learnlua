@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1382604068 source:/home/shawn/work/sogouime/ImeKernel/trunk/common/linux/file_linux.cpp
+
+1382581168 source:/home/shawn/work/sogouime/ImeKernel/trunk/common/linux/wchar_linux.cpp
+	"wchar_linux.h"
+	<string.h>
+
+1382581168 /home/shawn/work/sogouime/ImeKernel/trunk/common/linux/wchar_linux.h
+	<wchar.h>
+

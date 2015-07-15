@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="os" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../lib/linux/debug/libos" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="../../.." />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../lib/linux/release/libos" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-Wall" />
+					<Add directory="../../.." />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../../os/linux/file_linux.cpp" />
+		<Unit filename="../../../os/linux/file_linux.h" />
+		<Unit filename="../../../os/linux/filemap_linux.cpp" />
+		<Unit filename="../../../os/linux/filemap_linux.h" />
+		<Unit filename="../../../os/linux/mutex_linux.cpp" />
+		<Unit filename="../../../os/linux/mutex_linux.h" />
+		<Unit filename="../../../os/linux/os_linux.cpp" />
+		<Unit filename="../../../os/linux/os_linux.h" />
+		<Unit filename="../../../os/linux/path_linux.cpp" />
+		<Unit filename="../../../os/linux/path_linux.h" />
+		<Unit filename="../../../os/linux/pathtemp_linux.cpp" />
+		<Unit filename="../../../os/linux/pathtemp_linux.h" />
+		<Unit filename="../../../os/linux/profile_linux.h" />
+		<Unit filename="../../../os/linux/sem_linux.cpp" />
+		<Unit filename="../../../os/linux/sem_linux.h" />
+		<Unit filename="../../../os/linux/strconvert_linux.cpp" />
+		<Unit filename="../../../os/linux/strconvert_linux.h" />
+		<Unit filename="../../../os/linux/test_filemap.cpp" />
+		<Unit filename="../../../os/linux/test_mutex.cpp" />
+		<Unit filename="../../../os/linux/thread_linux.cpp" />
+		<Unit filename="../../../os/linux/thread_linux.h" />
+		<Unit filename="../../../os/linux/wstring_linux.h" />
+		<Unit filename="../../../os/sa_config.h" />
+		<Unit filename="../../../os/sa_file.h" />
+		<Unit filename="../../../os/sa_filemap.h" />
+		<Unit filename="../../../os/sa_mutex.h" />
+		<Unit filename="../../../os/sa_os.h" />
+		<Unit filename="../../../os/sa_path.h" />
+		<Unit filename="../../../os/sa_pathtemp.h" />
+		<Unit filename="../../../os/sa_profile.h" />
+		<Unit filename="../../../os/sa_sem.h" />
+		<Unit filename="../../../os/sa_strconvert.h" />
+		<Unit filename="../../../os/sa_string.h" />
+		<Unit filename="../../../os/sa_thread.h" />
+		<Unit filename="../../../os/sa_wchar.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
