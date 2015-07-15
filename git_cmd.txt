@@ -1,1 +1,9 @@
-﻿将本地代码提交到远程:  git.exe push --progress  "origin" master:master
+﻿将远程仓库拷贝到本地： git clone git@github.com:xxx.git  //xxx为完整项目名，包含路径
+
+将本地代码提交到远程:  git push --progress  "origin" master:master
+从远程讲代码拉取到本地： git pull origin master
+
+将文件提交到本地仓库中: git add  ReadMe.txt
+将本地所有文件提交到本地仓库中： git add -A
+提交本地所有修改记录： git commit -m "xxx" -o "xxx"  //-m表示提交的日志  -o表示提交哪些文件的修改
+ 
